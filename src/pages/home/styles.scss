@@ -1,0 +1,29 @@
+@import "../../App.scss";
+
+* {
+    background-color: $azulClaro;
+}
+
+#homeBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+    #homeSingleSection {
+        background-color: $branco;
+        padding: 5vw;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2vh 0;
+
+        h1 {
+            background-color: $branco;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
