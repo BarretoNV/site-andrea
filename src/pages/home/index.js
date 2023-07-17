@@ -4,6 +4,7 @@ import '../../App.scss';
 import './styles.scss';
 
 import Header from '../../components/header';
+import Slider from '../../components/slider';
 import IMAGES from "../../images/_images.js";
 
 function Home() {
@@ -20,11 +21,10 @@ function Home() {
                             </div>
                         </Link>
                     </section>
-                    <Link to="/presentations">
-                        <section id="homeSingleSection">
-                            <p>Palestras</p>
-                        </section>
-                    </Link>
+                    <section id="homeSingleSection">
+                        <p>Palestras</p>
+                        <Slider />
+                    </section>
                     <Link to="/onlineHelp">
                         <section id="homeSingleSection">
                             <p>Orientação</p>

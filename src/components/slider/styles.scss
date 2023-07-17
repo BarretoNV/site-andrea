@@ -1,11 +1,22 @@
 @import "../../App.scss";
 
-#Slider {
+#slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $header;
     width: 100%;
-    margin: 0;
 
+    .sliderItem {
+        background-color: $carroselBack;
+        padding: 15px;
+        border-radius: 15px;
+
+        p {
+            background-color: transparent;
+        }
+    }
+}
+
+.swiper-pagination {
+    background-color: transparent;
 }
