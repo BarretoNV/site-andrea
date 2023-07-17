@@ -2,6 +2,8 @@
 
 * {
     background-color: $azulClaro;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
 }
 
 #homeBody {
@@ -12,7 +14,6 @@
     overflow-x: hidden;
 
     #homeSingleSection {
-        background-color: $branco;
         padding: 5vw;
         width: 80vw;
         display: flex;
@@ -20,10 +21,21 @@
         align-items: center;
         margin: 2vh 0;
 
-        h1 {
-            background-color: $branco;
+        img {
+            width: 100%;
+            height: auto;
+            background-color: $fundoImagem;
+        }
+
+        p {
             font-size: 30px;
             text-align: center;
+            font-size: 1.2em;
         }
+    }
+
+    .greenBtn {
+        background-color: $verde;
+        padding: 10px 25px;
     }
 }

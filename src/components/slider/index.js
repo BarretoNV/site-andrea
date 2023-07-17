@@ -4,12 +4,12 @@ import '../../App.scss';
 import './styles.scss';
 
 
-function Header() {
+function Slider() {
     return (
-            <head id="header">
+            <head id="Slider">
               <Link to="/">
-                <h1>HEADER</h1>
+                <h1>Slider</h1>
               </Link>
             </head>
     )
-} export default Header;
+} export default Slider;
